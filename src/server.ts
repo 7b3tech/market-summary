@@ -18,3 +18,7 @@ app.get('/:symbol', async (req, res) => {
   const result = await marketSummary.getMarketSummary(symbol.toUpperCase())
   res.status(200).json(result)
 })
+
+// app.get('/', (req, res) => {
+//   res.send('Mr. Seven')
+// })
