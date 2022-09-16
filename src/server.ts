@@ -6,9 +6,9 @@ const webScraper = new WebScraper();
 const marketSummary = new MarketSummary(webScraper)
 
 const app = express();
-const PORT = process.env.PORT || 3000
-app.listen(PORT, () => {
-  console.log('server is running on port:', PORT)
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+  console.log('server is running on port:', port)
 })
 
 app.use(express.json())
