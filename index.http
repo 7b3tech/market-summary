@@ -3,3 +3,7 @@ GET http://localhost:3000/vale3
 GET http://localhost:3000/jbss3
 
 GET http://localhost:3000/petr4
+
+GET http://191.101.15.100:/3000/vale3
+
+GET http://191.101.15.100:/3000/
